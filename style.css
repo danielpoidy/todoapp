@@ -116,9 +116,9 @@ h1 {
 }
 
 @media screen and (max-width: 675px) {
-	body {
+	.page-wrap {
 		overflow-x: hidden;
-		/* position: relative; */
+		position: relative;
 	}
 
 	.burger {
