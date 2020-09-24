@@ -8,38 +8,41 @@
     <title>Document</title>
 </head>
 <body>
-    <nav>
-        <h4><a href="#" class="logo">My Todo App</a></h4>
-        <ul class="nav-links">
-            <li><a href="#">Pending Tasks</a></li>
-            <li><a href="#">Accomplished tasks</a></li>
-            <li><a href="#">All tasks</a></li>
-        </ul>
+    <main class="page-wrap">
+        <nav>
+            <h4><a href="#" class="logo">My Todo App</a></h4>
+            <ul class="nav-links">
+                <li><a href="#">Pending Tasks</a></li>
+                <li><a href="#">Accomplished tasks</a></li>
+                <li><a href="#">All tasks</a></li>
+            </ul>
+    
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+        <header>
+            <h1>⌚️ Let'<s></s> plan our tasks here 🖋</h1>
+            <span class="underline"></span>
+        </header>
+        <section>
+            <div class="tasks-area">
+                <form id="myform">
+                    <input type="text" class="task-input" placeholder="My task" required>
+                    <button type="submit" id="task-validation-btn">Add</button>
+                </form>
+            </div>
+            <div class="tasks-appearing-area">
+    
+            </div>
+        </section>
 
-        <div class="burger">
-            <div class="line1"></div>
-            <div class="line2"></div>
-            <div class="line3"></div>
-        </div>
-    </nav>
-    <header>
-        <h1>⌚️ Let'<s></s> plan our tasks here 🖋</h1>
-        <span class="underline"></span>
-    </header>
-    <main>
-        <div class="tasks-area">
-            <form id="myform">
-                <input type="text" class="task-input" placeholder="My task" required>
-                <button type="submit" id="task-validation-btn">Add</button>
-            </form>
-        </div>
-        <div class="tasks-appearing-area">
-
-        </div>
     </main>
     
-    <footer>
-        &copy Danickdev2020
+    <footer class="site-footer">
+        <h4>&copy Danickdev 2020</h4>
     </footer>
     
 

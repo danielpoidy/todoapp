@@ -24,13 +24,13 @@ function addNewTask () {
   taskArea.append(item)
 
   const p = document.createElement('div')
-  p.innerHTML = task.value
+  p.textContent = task.value
   p.classList.add('taskdisplay')
   item.append(p)
 
   const editInput = document.createElement('input')
   editInput.classList.add('edit-input')
-  editInput.classList.add('task-input') // a revoir   
+  editInput.classList.add('task-input') // a revoir
   editInput.style.border = 'rgba(255, 116, 116, .4) .2px solid'
   editInput.classList.add('hide')
   editInput.name = 'edit-input'
